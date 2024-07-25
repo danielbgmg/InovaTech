@@ -1,0 +1,5 @@
+@import "../../style/variaveis";
+@import "../../style/reset";
+.footer {
+  @include head-foot-reset();
+}

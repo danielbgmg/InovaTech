@@ -1,0 +1,9 @@
+@import "../../style/variaveis";
+@import "../../style/reset";
+.header {
+  @include head-foot-reset();
+
+  .header-btn {
+    @include default-button();
+  }
+}
