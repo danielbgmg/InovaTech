@@ -5,6 +5,11 @@ import TechnologyCard from "../../components/SkillCards/Technology/TechnologyCar
 import EducationCard from "../../components/SkillCards/Education/EducationCard";
 import { Link } from "react-router-dom";
 import HomeSlider from "../../components/HomeSlider/HomeSlider";
+import TrabalhoCard from "../../components/CoursesCards/Trabalho/TrabalhoCard";
+import ComunicacaoCard from "../../components/CoursesCards/Comunicacao/ComunicacaoCard";
+import GestaoCard from "../../components/CoursesCards/Gestao/GestaoCard";
+import LiderancaCard from "../../components/CoursesCards/Lideranca/LiderancaCard";
+
 export default function Home() {
   return (
     <div className="main">
@@ -57,6 +62,28 @@ export default function Home() {
         <div className="team-det">
           <Link className="team-btn" to="/team">
             Saiba Mais
+          </Link>
+        </div>
+      </section>
+      <section className="courses">
+        <div className="courses-details">
+          <h2 className="courses-title">Nossos Cursos</h2>
+          <p className="courses-desc">
+            Melhore suas habilidades interpessoais e torne-se um profissional
+            mais completo com nossos cursos de soft skills. Aprenda comunicação
+            eficaz, liderança, gestão de tempo e muito mais para alcançar o
+            sucesso em sua carreira.
+          </p>
+        </div>
+        <div className="courses-card-box">
+          <TrabalhoCard />
+          <ComunicacaoCard />
+          <GestaoCard />
+          <LiderancaCard />
+        </div>
+        <div className="courses-det">
+          <Link className="courses-btn" to="/courses">
+            Ver Cursos
           </Link>
         </div>
       </section>

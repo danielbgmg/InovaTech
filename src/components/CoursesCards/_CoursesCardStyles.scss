@@ -1,31 +1,35 @@
 @import "../../style/variaveis";
 @import "../../style/reset";
 
-.skill-card {
-  background: #0b0a5ac2;
+.course-card {
+  background: rgba(15, 14, 116, 0.86);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 410px;
-  height: 360px;
-  border-radius: 10px;
-  padding: 38px 25px;
-  gap: 12px;
+  width: 316px;
+  height: 472px;
+  border-radius: 12px;
+  padding: 38px 12px;
   border: 1px solid #061842;
-  .skill-title {
+  margin: 10px;
+
+  .course-icon {
+    width: 100px;
+  }
+  .course-title {
     font-family: $proxima-nova-font;
     color: $text-color;
     font-size: 32px;
     font-weight: 700;
-    line-height: 36px;
+    line-height: 32px;
     text-align: center;
   }
 
-  .skill-desc {
+  .course-desc {
     font-family: Montserrat;
     color: $text-color;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 42px;
     text-align: center;

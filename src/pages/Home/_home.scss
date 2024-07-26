@@ -38,7 +38,8 @@
     background-image: url("../../assets/img/element-3.png");
     background-size: cover;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     max-width: 100vw;
     height: 100vh;
     gap: 32px;
@@ -111,6 +112,44 @@
       align-items: center;
 
       .team-btn {
+        @include default-button;
+        width: 300px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .courses {
+    background-image: url("../../assets/img/element-2.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .courses-details {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .courses-title {
+        @include title-default;
+        color: $text-color;
+      }
+      .courses-desc {
+        @include text-default;
+        color: $text-color;
+        width: 80vw;
+        text-align: center;
+      }
+    }
+    .courses-card-box {
+      display: flex;
+      width: 95vw;
+      justify-content: space-around;
+    }
+
+    .courses-det {
+      display: flex;
+      margin: 20px auto;
+      .courses-btn {
         @include default-button;
         width: 300px;
         margin-bottom: 20px;
