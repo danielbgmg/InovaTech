@@ -1,0 +1,35 @@
+@import "../../style/variaveis";
+.slide-card {
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  height: 200px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+  padding: 60px 57px;
+
+  .prof-img img {
+    width: 200px;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .prof-details {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    h5 {
+      font-weight: 600;
+      font-size: 16px;
+      text-align: center;
+      color: $text-color;
+    }
+    p {
+      color: $text-color;
+      font-size: 12px;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+@import "../../style/variaveis";
+.prof-card {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.09);
+  height: 570px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 390px;
+  padding: 60px 57px;
+
+  .prof-img img {
+    width: 260px;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .prof-details {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    .prof-name {
+      font-weight: 600;
+      font-size: 28px;
+      text-align: center;
+      color: $text-color;
+    }
+    .prof-stack {
+      color: $text-color;
+    }
+  }
+  .icons {
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+  }
+}
