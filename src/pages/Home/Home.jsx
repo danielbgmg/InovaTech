@@ -87,6 +87,7 @@ export default function Home() {
           </Link>
         </div>
       </section>
+      <section className="blog"></section>
     </div>
   );
 }

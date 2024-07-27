@@ -1,13 +1,4 @@
-import ProfileCard1 from "../../components/ProfileCards/Gabriel/ProfileCard";
-import ProfileCard2 from "../../components/ProfileCards/Daniel/ProfileCard";
-import ProfileCard3 from "../../components/ProfileCards/Kleber/ProfileCard";
-import ProfileCard9 from "../../components/ProfileCards/Marco/ProfileCard";
-
-import ProfileCard4 from "../../components/ProfileCards/Martin/ProfileCard";
-import ProfileCard5 from "../../components/ProfileCards/Mayara/ProfileCard";
-import ProfileCard6 from "../../components/ProfileCards/Renata/ProfileCard";
-import ProfileCard7 from "../../components/ProfileCards/Thayssa/ProfileCard";
-import ProfileCard8 from "../../components/ProfileCards/Wesley/ProfileCard";
+import TeamCard from "../../components/ProfileCards/TeamCard/TeamCard";
 import "./_team.scss";
 export default function Team() {
   return (
@@ -22,15 +13,7 @@ export default function Team() {
         </p>
       </section>
       <section className="profiles">
-        <ProfileCard1 />
-        <ProfileCard2 />
-        <ProfileCard3 />
-        <ProfileCard4 />
-        <ProfileCard5 />
-        <ProfileCard6 />
-        <ProfileCard7 />
-        <ProfileCard8 />
-        <ProfileCard9 />
+        <TeamCard />
       </section>
     </div>
   );
