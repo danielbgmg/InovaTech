@@ -3,12 +3,12 @@ import Image from "../../assets/img/robos-home.png";
 import SoftSkillCard from "../../components/SkillCards/SoftSkills/SoftSkillCard";
 import TechnologyCard from "../../components/SkillCards/Technology/TechnologyCard";
 import EducationCard from "../../components/SkillCards/Education/EducationCard";
-import { Link } from "react-router-dom";
 import HomeSlider from "../../components/HomeSlider/HomeSlider";
 import TrabalhoCard from "../../components/CoursesCards/Trabalho/TrabalhoCard";
 import ComunicacaoCard from "../../components/CoursesCards/Comunicacao/ComunicacaoCard";
 import GestaoCard from "../../components/CoursesCards/Gestao/GestaoCard";
 import LiderancaCard from "../../components/CoursesCards/Lideranca/LiderancaCard";
+import Button from "../../components/Button/Button";
 
 export default function Home() {
   return (
@@ -32,17 +32,12 @@ export default function Home() {
         <article className="about-us">
           <h2 className="title-about">Sobre Nós</h2>
           <p className="desc-about">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam,Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim ve
+          Na InovaTech, nossa paixão por inovação e tecnologia nos impulsiona a entregar soluções de ponta que transformam ideias em realidade. Fundada por entusiastas da tecnologia, nossa missão é capacitar indivíduos e empresas com ferramentas e conhecimentos essenciais para prosperar no mundo digital em constante evolução.
           </p>
-          <Link className="about-btn" to="/about">
-            Saiba Mais
-          </Link>
+          <Button 
+            to='/about'
+            name='Saiba Mais'
+          />
         </article>
         <img className="robos-home" src={Image} alt="Robos da InovaTech" />
       </section>
@@ -59,11 +54,10 @@ export default function Home() {
         <div className="slider-box">
           <HomeSlider />
         </div>
-        <div className="team-det">
-          <Link className="team-btn" to="/team">
-            Saiba Mais
-          </Link>
-        </div>
+        <Button 
+            to='/team'
+            name='Saiba Mais'
+          />
       </section>
       <section className="courses">
         <div className="courses-details">
@@ -81,11 +75,10 @@ export default function Home() {
           <GestaoCard />
           <LiderancaCard />
         </div>
-        <div className="courses-det">
-          <Link className="courses-btn" to="/courses">
-            Ver Cursos
-          </Link>
-        </div>
+        <Button 
+            to='/courses'
+            name='Ver Cursos'
+          />
       </section>
       <section className="blog"></section>
     </div>

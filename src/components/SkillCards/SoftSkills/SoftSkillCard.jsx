@@ -5,7 +5,7 @@ export default function SoftSkillCard() {
   return (
     <div className="skill-card">
       <img className="skill-icon" src={Icon} alt="" />
-      <h2 className="skill-title">SoftSkills</h2>
+      <h6 className="skill-title">SoftSkills</h6>
       <p className="skill-desc">
         Aprimore suas habilidades interpessoais e lidere com confiança.
       </p>

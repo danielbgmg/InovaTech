@@ -19,7 +19,7 @@ function HomeSlider() {
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 2000,
+    speed: 20000000,
     autoplaySpeed: 2000,
     cssEase: "linear",
   };
@@ -27,33 +27,15 @@ function HomeSlider() {
   return (
     <div className="slider-container">
       <Slider {...settings}>
-        <div>
-          <SlideCard1 />
-        </div>
-        <div>
-          <SlideCard2 />
-        </div>
-        <div>
-          <SlideCard3 />
-        </div>
-        <div>
-          <SlideCard4 />
-        </div>
-        <div>
-          <SlideCard5 />
-        </div>
-        <div>
-          <SlideCard6 />
-        </div>
-        <div>
-          <SlideCard7 />
-        </div>
-        <div>
-          <SlideCard8 />
-        </div>
-        <div>
-          <SlideCard9 />
-        </div>
+        <SlideCard1 />
+        <SlideCard2 />
+        <SlideCard3 />
+        <SlideCard4 />
+        <SlideCard5 />
+        <SlideCard6 />
+        <SlideCard7 />
+        <SlideCard8 />
+        <SlideCard9 />
       </Slider>
     </div>
   );

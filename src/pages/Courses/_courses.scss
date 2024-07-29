@@ -1,3 +1,30 @@
-h1 {
-  color: white;
+@import "../../style/variaveis";
+@import "../../style/reset";
+
+.main {
+  background: $background;
+
+  .courses-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 90px 165px;
+    text-align: center;
+    
+    .courses-cardInfo {
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(1, 0, 24, 0.05) 100%);
+      padding: 52px 17px;
+      width: 411px;
+      height: 456px;
+      border-radius: 10px;
+      
+      .courses-cardTitle {
+        @include cardTitle-default();
+      }
+
+      .courses-cardText {
+        @include cardText-default();
+        padding: 26px 0;
+      }
+    }
+  }
 }

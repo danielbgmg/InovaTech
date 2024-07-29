@@ -13,21 +13,25 @@
   padding: 38px 25px;
   gap: 12px;
   border: 1px solid #061842;
+  box-shadow: 7px 9px 10px -2px #00000026;
+
   .skill-title {
     font-family: $proxima-nova-font;
     color: $text-color;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 700;
     line-height: 36px;
     text-align: center;
+    margin: 0;
   }
 
   .skill-desc {
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     color: $text-color;
     font-size: 20px;
     font-weight: 400;
     line-height: 42px;
     text-align: center;
+    color: $text-color-desc;
   }
 }

@@ -6,13 +6,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   width: 316px;
   height: 472px;
   border-radius: 12px;
   padding: 38px 12px;
   border: 1px solid #061842;
-  margin: 10px;
 
   .course-icon {
     width: 100px;
@@ -27,11 +26,9 @@
   }
 
   .course-desc {
-    font-family: Montserrat;
-    color: $text-color;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 42px;
-    text-align: center;
+    @include text-default;
+    width: 100%;
+    font-size: 20px;
+    padding: 0;
   }
 }

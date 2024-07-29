@@ -1,0 +1,26 @@
+@import "../../style/reset";
+@import "../../style/variaveis";
+
+.header-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 46px;
+    padding: 72px 0 32px;
+    background-image: url("../../assets/img/banner-section.png");
+    height: 350px;
+}
+
+.header-title {
+    @include title-default();
+}
+
+.header-parag {
+    @include text-default();
+    padding: 0;
+    width: 100%;
+    max-width: 1260px;
+    margin: 0;
+}
+
+//styleName: M-regular;

@@ -1,0 +1,6 @@
+@import "../../style/variaveis";
+@import "../../style/reset";
+
+.btn-link {
+    @include default-button();
+  }

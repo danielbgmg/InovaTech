@@ -1,6 +1,7 @@
 import { Link, Outlet } from "react-router-dom";
 import Logo from "../../assets/img/logo-header.png";
 import "./_header.scss";
+import Button from "../Button/Button";
 
 export default function Header() {
   return (
@@ -34,9 +35,10 @@ export default function Header() {
             </li>
           </ul>
         </nav>
-        <Link className="header-btn" to="/contact">
-          Contato
-        </Link>
+        <Button 
+            to='/contact'
+            name='Contato'
+          />
         <Outlet />
       </div>
     </>

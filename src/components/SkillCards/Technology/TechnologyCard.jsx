@@ -4,7 +4,7 @@ export default function TechnologyCard() {
   return (
     <div className="skill-card">
       <img className="skill-icon" src={Icon} alt="" />
-      <h2 className="skill-title">Tecnologia</h2>
+      <h6 className="skill-title">Tecnologia</h6>
       <p className="skill-desc">
         Fique à frente com as últimas tendências e inovações tecnológicas.
       </p>
