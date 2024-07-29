@@ -19,7 +19,7 @@ function HomeSlider() {
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 20000000,
+    speed: 2000,
     autoplaySpeed: 2000,
     cssEase: "linear",
   };
