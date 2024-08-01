@@ -1,5 +1,5 @@
 import Button from "../../components/Button/Button";
-import HeaderPages from "../../components/HeaderPage/HeaderSection";
+import HeaderPages from "../../components/HeaderSection/HeaderSection";
 import "./_courses.scss";
 export default function courses() {
   return (

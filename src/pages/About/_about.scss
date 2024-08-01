@@ -1,3 +1,35 @@
-h1 {
-  color: white;
+@import "../../style/variaveis";
+@import "../../style/reset";
+
+.main {
+  section {
+    padding: 0 72px;
+    
+    .about-subTitle {
+      @include sub-default();
+      margin-bottom: 20px;
+    }
+
+    .header-text {
+      display: flex;
+      justify-content: space-between;
+
+      .about-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        p {
+          width: 50vw;
+        }
+  
+      }
+    }
+    p {
+      @include text-default();
+      width: 80vw;
+      line-height: 41px;
+      text-align: left;
+      padding: 34px 0;
+    }
+  }
 }
