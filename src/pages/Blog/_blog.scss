@@ -1,1 +1,61 @@
 @import "../../style/variaveis";
+@import "../../style/reset";
+
+.main {
+
+    .blog-header {
+
+        .blog-title {
+            @include title-default();
+        }
+        .blog-headerImgs {
+            display: flex;
+            width: 100%;
+            max-height: 578px;
+            gap: 16px;
+            padding: 0 72px;
+
+            .blog-img2{
+                display: flex;
+                flex-direction: column;
+                flex: 1;
+                gap: 16px;
+            }
+            
+        }
+    }
+    .blog-posts {
+        padding: 72px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+
+        .post-card {
+            background-color: hsla(0, 0%, 100%, 0.09);
+            padding: 56px 31px;
+            border-radius: 10px;
+            display: flex;
+            gap: 51px;
+            align-items: center;
+
+            img {
+                max-width: 346px;
+                // width: 100px;
+            }
+
+            .post-text {
+
+                h2 {
+                    @include postTitle-default();
+                }
+
+                p {
+                    @include cardText-default();
+                    width: 100%;
+                }
+            }
+
+        }
+    }
+}

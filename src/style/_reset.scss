@@ -65,6 +65,7 @@ p {
   margin: 0;
   color: $text-color;
 }
+
 @mixin sub-default() {
   font-family: $proxima-nova-font;
   font-size: 56px;
@@ -103,4 +104,14 @@ p {
   line-height: 42px;
   color: $text-color-desc;
   margin: 0;
+}
+
+@mixin postTitle-default() {
+  font-family: $proxima-nova-font;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  margin: 0;
+  color: $text-color;
+  letter-spacing: 0.73px;
 }
