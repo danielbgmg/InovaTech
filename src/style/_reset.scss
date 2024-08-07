@@ -12,6 +12,14 @@ p {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  outline: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
 @mixin head-foot-reset() {
   background: $header-background;
   padding: 16px 106px;

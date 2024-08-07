@@ -28,20 +28,20 @@ export default function about() {
           <img src={LogoG} alt="" className="logo-g" />
         </div>
         <div>
-          <p>
+          <p className="about-text">
             Nossa equipe é composta por especialistas talentosos em diversas
             áreas, incluindo desenvolvimento back-end, front-end e design UX/UI.
             Juntos, combinamos criatividade, expertise técnica e uma abordagem
             centrada no usuário para desenvolver produtos que não apenas atendem
             às necessidades atuais, mas também antecipam os desafios futuros.
           </p>
-          <p>
+          <p className="about-text">
             Valorizamos a educação contínua e acreditamos que o aprendizado é a
             chave para o progresso. Por isso, oferecemos uma ampla gama de
             cursos e recursos educativos, projetados para aprimorar suas
             habilidades e mantê-lo à frente das tendências tecnológicas.
           </p>
-          <p>
+          <p className="about-text">
             Na InovaTech, cada projeto é uma nova oportunidade de inovar e
             exceder expectativas. Estamos comprometidos em criar experiências
             excepcionais e soluções tecnológicas que impulsionam o sucesso de

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Link, Outlet } from 'react-router-dom'
 import Logo from '../../assets/img/logo-header.png'
 import { Icon } from '@iconify/react'

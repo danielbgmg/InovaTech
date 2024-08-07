@@ -19,12 +19,14 @@
         flex-direction: column;
         justify-content: space-between;
         p {
+          @include text-default();
+          text-align: left;
           width: 50vw;
         }
   
       }
     }
-    p {
+    .about-text {
       @include text-default();
       width: 80vw;
       line-height: 41px;
