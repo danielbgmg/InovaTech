@@ -1,16 +1,16 @@
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import "./_homeSlider.scss";
-import SlideCard1 from "../TeamSlideCards/Daniel/SlideCard";
-import SlideCard2 from "../TeamSlideCards/Gabriel/SlideCard";
-import SlideCard3 from "../TeamSlideCards/Kleber/SlideCard";
-import SlideCard4 from "../TeamSlideCards/Marco/SlideCard";
-import SlideCard5 from "../TeamSlideCards/Martin/SlideCard";
-import SlideCard6 from "../TeamSlideCards/Mayara/SlideCard";
-import SlideCard7 from "../TeamSlideCards/Renata/SlideCard";
-import SlideCard8 from "../TeamSlideCards/Thayssa/SlideCard";
-import SlideCard9 from "../TeamSlideCards/Wesley/SlideCard";
+import Slider from 'react-slick'
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
+import './_homeSlider.scss'
+import SlideCard1 from '../TeamSlideCards/Daniel/SlideCard'
+import SlideCard2 from '../TeamSlideCards/Gabriel/SlideCard'
+import SlideCard3 from '../TeamSlideCards/Kleber/SlideCard'
+import SlideCard4 from '../TeamSlideCards/Marco/SlideCard'
+import SlideCard5 from '../TeamSlideCards/Martin/SlideCard'
+import SlideCard6 from '../TeamSlideCards/Mayara/SlideCard'
+import SlideCard7 from '../TeamSlideCards/Renata/SlideCard'
+import SlideCard8 from '../TeamSlideCards/Thayssa/SlideCard'
+import SlideCard9 from '../TeamSlideCards/Wesley/SlideCard'
 
 function HomeSlider() {
   const settings = {
@@ -21,8 +21,17 @@ function HomeSlider() {
     autoplay: true,
     speed: 2000,
     autoplaySpeed: 2000,
-    cssEase: "linear",
-  };
+    cssEase: 'linear',
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  }
 
   return (
     <div className="slider-container">
@@ -38,7 +47,7 @@ function HomeSlider() {
         <SlideCard9 />
       </Slider>
     </div>
-  );
+  )
 }
 
-export default HomeSlider;
+export default HomeSlider
