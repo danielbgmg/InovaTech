@@ -143,3 +143,14 @@ a:hover {
   color: $text-color;
   letter-spacing: 0.73px;
 }
+
+@mixin subTitle-Post() {
+  font-family: $proxima-nova-font;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  margin: 0;
+  color: $text-color;
+  letter-spacing: 0.73px;
+  padding: 32px 0;
+}

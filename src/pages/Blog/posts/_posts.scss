@@ -1,0 +1,58 @@
+@import "../../../style/variaveis";
+@import "../../../style/reset";
+
+.main-posts {
+    background: $background;
+    padding: 0 180px;
+
+    .header-post {
+        display: flex;
+        flex-direction: column;
+        padding-top: 84px;
+
+        .blog-title {
+            @include sub-default();
+        }
+
+        img {
+            height: 580px;
+            border-radius: 15px;
+            padding: 22px 0 65px;
+        }
+
+        .post-title {
+            padding: 0 0 34px;
+            h1 {
+                @include sub-default();
+            }
+
+            div {
+                @include text-default();
+                text-align: left;
+                padding: 12px 0;
+                .post-authorName {
+                    font-weight: bold;
+                }
+    
+                .separador {
+                    padding: 0 18px;
+                }
+            }
+        }
+    }
+
+    section {
+        padding: 0;
+        h2 {
+            @include subTitle-Post();
+        }
+
+        p {
+            @include cardText-default();
+        }
+
+        .ref-post{
+            margin-bottom: 225px;
+        }
+    }
+}

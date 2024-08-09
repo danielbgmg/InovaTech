@@ -7,6 +7,9 @@ import Blog from "../src/pages/Blog/blog";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Team from "./pages/Team/Team";
+import InteligenciaEmocional from "./pages/Blog/posts/InteligenciaEmocional";
+import SucessoProficional from "./pages/Blog/posts/sucessoProficional";
+import AmbienteToxico from "./pages/Blog/posts/ambienteToxico";
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/team" element={<Team />} />
+        <Route path="/inteligenciaEmocional" element={<InteligenciaEmocional />} />
+        <Route path="/sucessoProficional" element={<SucessoProficional />} />
+        <Route path="/ambienteToxico" element={<AmbienteToxico />} />
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -34,15 +34,17 @@ export default function blog() {
         </div>
       </div>
       <section className="blog-posts">
-        <div className="post-card">
-          <img src="/src/assets/img/post-img1.png" alt="" />
-          <div className="post-text">
-            <h2>Quais são os cinco pilares da Inteligência Emocional?</h2>
-            <p>Inteligência emocional é a capacidade de captar o mundo por meio dos estímulos. Praticá-la é transformador, pois a partir disso, é possível dominar suas emoções e usá-las a favor de si mesmo...Ler Mais
-            </p>
+        <Link to="/inteligenciaEmocional">
+          <div className="post-card">
+            <img src="/src/assets/img/post-img1.png" alt="" />
+            <div className="post-text">
+              <h2>Quais são os cinco pilares da Inteligência Emocional?</h2>
+              <p>Inteligência emocional é a capacidade de captar o mundo por meio dos estímulos. Praticá-la é transformador, pois a partir disso, é possível dominar suas emoções e usá-las a favor de si mesmo...Ler Mais
+              </p>
+            </div>
           </div>
-        </div>
-        <Link to="/">
+        </Link>
+        <Link to="/sucessoProficional">
           <div className="post-card">
             <img src="/src/assets/img/post-img2.png" alt="" />
             <div className="post-text">
@@ -52,14 +54,16 @@ export default function blog() {
             </div>
           </div>
         </Link>
-        <div className="post-card">
-          <img src="/src/assets/img/post-img3.png" alt="" />
-          <div className="post-text">
-            <h2>Ambiente de trabalho tóxico: 7 sinais para você ficar alerta!</h2>
-            <p>Um ambiente de trabalho tóxico pode ser definido como aquele que afeta negativamente os trabalhadores de uma empresa, destacando que o resultado disso pode ser sentido dentro e fora dela. Ler mais
-            </p>
+        <Link to="/ambienteToxico">
+          <div className="post-card">
+            <img src="/src/assets/img/post-img3.png" alt="" />
+            <div className="post-text">
+              <h2>Ambiente de trabalho tóxico: 7 sinais para você ficar alerta!</h2>
+              <p>Um ambiente de trabalho tóxico pode ser definido como aquele que afeta negativamente os trabalhadores de uma empresa, destacando que o resultado disso pode ser sentido dentro e fora dela. Ler mais
+              </p>
+            </div>
           </div>
-        </div>
+        </Link>
       </section>
     </div>
   );
