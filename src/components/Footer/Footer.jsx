@@ -1,13 +1,14 @@
-import { Link } from "react-router-dom";
-import Logo from "../../assets/img/logo-header.png";
-import "./_footer.scss";
+import { Link } from 'react-router-dom'
+import Logo from '../../assets/img/logo-header.png'
+import './_footer.scss'
 
 export default function Footer() {
   return (
     <>
       <div className="footer">
         <div className="navigation">
-          <img src={Logo} alt="Logotipo InovaTech" />
+          <img src={Logo} alt="Logotipo InovaTech" className="logo" />
+
           <nav className="navBar">
             <ul>
               <li>
@@ -40,12 +41,11 @@ export default function Footer() {
         </div>
         <div className="copyright">
           <p>
-            COPYRIGHT&copy; 2024 INOVATECH - SITE DESENVOLVIDO POR INOVATECH -
-            DESIGN{" "}
+            Copyright&copy; 2024 Inovatech - Desenvolvido por Inovatech - DESIGN{' '}
             <a href="https://www.linkedin.com/in/renataslessa" target="_blank">
               RENATA LESSA
-            </a>{" "}
-            E{" "}
+            </a>{' '}
+            E{' '}
             <a
               href="https://www.linkedin.com/in/mayaragoncalves-santos"
               target="_blank"
@@ -56,5 +56,5 @@ export default function Footer() {
         </div>
       </div>
     </>
-  );
+  )
 }

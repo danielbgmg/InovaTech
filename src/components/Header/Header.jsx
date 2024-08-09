@@ -17,7 +17,7 @@ export default function Header() {
   return (
     <>
       <div className="header">
-        <img src={Logo} alt="Logotipo InovaTech" />
+        <img src={Logo} alt="Logotipo InovaTech" className='logo' />
         <button className="hamburger" onClick={toggleMenu}>
           <Icon
             icon={menuOpen ? closeIcon : hamburgerIcon}
