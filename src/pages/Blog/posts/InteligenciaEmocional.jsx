@@ -3,7 +3,7 @@ import "./_posts.scss";
 import { Link } from "react-router-dom";
 export default function InteligengiaEmocional() {
   return (
-    <main className="main main-posts">
+    <main className="main-posts">
         <div className="header-post">
             <span className="blog-title">BLOG</span>
             <img src={Image} alt="" />

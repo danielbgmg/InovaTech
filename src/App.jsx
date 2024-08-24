@@ -9,7 +9,7 @@ import Footer from "./components/Footer/Footer";
 import Team from "./pages/Team/Team";
 import InteligenciaEmocional from "./pages/Blog/posts/InteligenciaEmocional";
 import SucessoProficional from "./pages/Blog/posts/sucessoProficional";
-import AmbienteToxico from "./pages/Blog/posts/ambienteToxico";
+import AmbienteToxico from "./pages/Blog/posts/ambientesToxicos";
 
 function App() {
   return (

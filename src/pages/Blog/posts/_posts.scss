@@ -30,6 +30,7 @@
                 @include text-default();
                 text-align: left;
                 padding: 12px 0;
+
                 .post-authorName {
                     font-weight: bold;
                 }
@@ -42,7 +43,7 @@
     }
 
     section {
-        padding: 0;
+        // padding: 0;
         h2 {
             @include subTitle-Post();
         }
@@ -50,9 +51,32 @@
         p {
             @include cardText-default();
         }
+        .list-blog {
+            padding-left: 30px;
+        }
 
         .ref-post{
-            margin-bottom: 225px;
+            font-style: italic;
+            margin: 40px 0 225px;
+
+            a {
+                padding-left: 4px;
+                text-decoration: underline;
+                color: $text-color-link;
+            }
+        }
+        
+    }
+
+    @media (max-width: 758px) {
+        .main-posts {
+            padding: 16px;
+        }
+
+        .post-title {
+            h1 {
+                font-size: 32px;
+            }
         }
     }
 }

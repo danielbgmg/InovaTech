@@ -9,16 +9,6 @@ export default function blog() {
           <h1 className="blog-title">BLOG</h1>    
         </div>
         <div className="blog-headerImgs">
-          {/* <div className="blog-img1">
-            <img src="/src/assets/img/Blog-img1.png" alt="" />
-          </div>
-          <div className="blog-img2">
-            <img src="/src/assets/img/Blog-img2.png" alt="" />
-            <div>
-              <img src="/src/assets/img/Blog-img3.png" alt="" />
-              <img src="/src/assets/img/Blog-img4.png" alt="" />
-            </div>
-          </div> */}
           <div className="blog-img1">
             <img src="/src/assets/img/Blog-img1.png" alt="" />
           </div>
