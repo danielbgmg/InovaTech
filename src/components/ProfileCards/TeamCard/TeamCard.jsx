@@ -7,10 +7,11 @@ import Kleber from "../../../assets/iconsProfile/icon-pf-kleber.png";
 import Marco from "../../../assets/iconsProfile/icon-pf-marco.png";
 import Mayara from "../../../assets/iconsProfile/icon-pf-mayara.png";
 import Renata from "../../../assets/iconsProfile/icon-pf-renata.png";
-import Thayssa from "../../../assets/iconsProfile/icon-pf-thayssa.png";
+import Julia from "../../../assets/iconsProfile/icon-pf-julia.png";
 import Weslley from "../../../assets/iconsProfile/icon-pf-weslley.png";
 import LinkedinIcon from "../../../assets/img/icon-linkedin.png";
 import GithubIcon from "../../../assets/img/icon-git.png";
+import RenataL from "../../../assets/iconsProfile/icon-pf-renata-lessa.png";
 
 const teamMembers = [
   {
@@ -63,9 +64,9 @@ const teamMembers = [
     github: "https://github.com",
   },
   {
-    image: Thayssa,
-    name: "Thayssa Vasconcelos",
-    stack: "Back-end",
+    image: Julia,
+    name: "Julia",
+    stack: "UX/UI Design",
     linkedin: "https://www.linkedin.com",
     github: "https://github.com",
   },
@@ -75,6 +76,13 @@ const teamMembers = [
     stack: "Back-end",
     linkedin: "https://www.linkedin.com",
     github: "https://github.com",
+  },
+  {
+    image: RenataL,
+    name: "Renata Lessa",
+    stack: "UX/UI Design",
+    linkedin: "https://linkedin.com/in/renataslessa",
+    github: "https://behance.net/renatalessa2 ",
   },
 ];
 
