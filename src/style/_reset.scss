@@ -20,6 +20,10 @@ a:hover {
   text-decoration: none;
 }
 
+li {
+  list-style-position: inside;
+}
+
 @mixin head-foot-reset() {
   background: $header-background;
   padding: 16px 106px;

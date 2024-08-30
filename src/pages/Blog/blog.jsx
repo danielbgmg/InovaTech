@@ -6,7 +6,7 @@ export default function blog() {
     <div className="main">
       <div className="blog-header">
         <div>
-          <h1 className="blog-title">BLOG</h1>    
+          <h1 className="blog-title blog-titleMobile">BLOG</h1>    
         </div>
         <div className="blog-headerImgs">
           <div className="blog-img1">

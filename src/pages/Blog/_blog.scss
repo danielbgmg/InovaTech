@@ -82,21 +82,46 @@
     }
 
     @media (max-width: 758px) {
+        .blog-header {
+            padding: 0 16px;
+        }
         .blog-posts {
             padding: 0 16px;
         }
+        .blog-titleMobile {
+            height: 180px;
+            background-image: url('../../assets/img/banner-section-mobile.png');
+            background-size: 100%;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
         .post-card {
             flex-direction: column;
         }
-
+    
         .post-text {
             h2 {
                 font-size: 24px;
             }
-
+    
             p {
                 font-size: 16px;
             }
         }
+    }
+}
+@media (max-width: 758px) {
+    .main .blog-header .blog-headerImgs {
+        display: none;
+    }
+    .main .blog-posts .post-card .post-text h2 {
+        font-size: 28px;
+    }
+    .main .blog-posts .post-card .post-text p {
+        font-size: 16px;
+        line-height: 26px;
     }
 }

@@ -1,6 +1,7 @@
 @import "../../../style/variaveis";
 @import "../../../style/reset";
 
+
 .main-posts {
     background: $background;
     padding: 0 180px;
@@ -15,7 +16,7 @@
         }
 
         img {
-            height: 580px;
+            max-height: 580px;
             border-radius: 15px;
             padding: 22px 0 65px;
         }
@@ -68,15 +69,15 @@
         
     }
 
-    @media (max-width: 758px) {
-        .main-posts {
-            padding: 16px;
-        }
-
-        .post-title {
-            h1 {
-                font-size: 32px;
-            }
+}
+@media (max-width: 758px) {
+    .main-posts {
+        padding: 16px;
+    }
+    
+    .post-title {
+        h1 {
+            font-size: 32px;
         }
     }
 }
